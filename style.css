@@ -1,7 +1,4 @@
 .div.top-bar {
-    display: flex;
-    justify-content: right;
-    align-items: center;
     position: sticky;
     background-color: #001a42;
     border-bottom: 20px;
