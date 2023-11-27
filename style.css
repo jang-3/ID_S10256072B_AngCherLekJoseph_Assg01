@@ -23,7 +23,7 @@ body {
 .side-bar {
     position: sticky;
     top: 0;
-    background-color: #001a42;
+    background-color: black;
     padding: 10px;
     height: 100;
     overflow-y: auto;
