@@ -24,10 +24,12 @@ body {
     position: sticky;
     top: 0;
     background-color: black;
+    margin: 0;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .container {
