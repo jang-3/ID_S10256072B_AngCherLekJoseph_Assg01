@@ -2,5 +2,5 @@ div.sidebar {
     position: sticky;
     top: 0;
     background-color: #001a42;
-    padding: 20px;
+    border: 10px;
 }
