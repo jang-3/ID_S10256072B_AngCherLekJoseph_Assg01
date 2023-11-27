@@ -1,8 +1,9 @@
 .body {
-    background-color: #001a42;
+    background-image: #001a42;
 }
 
 .div.top-bar {
+    
     position: sticky;
     background-color: #001a42;
     border-bottom: 20px;
