@@ -37,7 +37,6 @@ body {
 
   .split {
     padding: 1%;
-    flex: 1 47%;
   }
 
   @media (max-width: 900px) {
@@ -46,6 +45,5 @@ body {
     }
 
     .split {
-      flex: 1 93%;
     }
 }
