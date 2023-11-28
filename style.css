@@ -9,6 +9,7 @@ body {
 
 .div.top-bar {
     display: flex;
+    background-color: black;
     padding: 10px;
 }
 
