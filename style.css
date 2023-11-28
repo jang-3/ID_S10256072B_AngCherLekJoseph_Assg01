@@ -30,6 +30,7 @@ body {
     padding-top: 0px;
     padding-bottom: 20px;
     overflow: hidden;
+    color: white;
 }
 
 .container {
@@ -37,16 +38,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 
   .split {
     padding: 1%;
     flex: 1 47%;
   }
-
-  .split.h2.p{    
-    color: aqua;
-}
 
   @media (max-width: 900px) {
     .container {
