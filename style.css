@@ -16,7 +16,7 @@ body {
     background-color: black;
     padding-bottom: 50px;
     padding-top: 50px;
-    overflow: hidden;
+    overflow-x: hidden;
     justify-content: center;
 }
 
