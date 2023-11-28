@@ -42,8 +42,11 @@ body {
   .split {
     padding: 1%;
     flex: 1 47%;
-    color: aliceblue;
   }
+
+  .split.h2.p{    
+    color: aqua;
+}
 
   @media (max-width: 900px) {
     .container {
