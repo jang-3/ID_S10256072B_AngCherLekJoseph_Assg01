@@ -4,13 +4,12 @@ body {
 
 .wrapper {
     display: flex;
-    height: auto;
     position: sticky;
     top: 0;
     margin: 0px;
     margin-bottom: 100px;
     background-color: black;
-    padding: 50%;
+    padding: 50px;
     overflow: hidden;
 }
 
