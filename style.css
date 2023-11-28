@@ -5,6 +5,11 @@ body {
 .wrapper {
     display: flex;
     height: auto;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 0%;
+    overflow: hidden;
 }
 
 .div.top-bar {
@@ -19,11 +24,7 @@ body {
 }
 
 .side-bar {
-    position: sticky;
-    top: 0;
-    background-color: black;
-    padding: 0%;
-    overflow: hidden;
+
 }
 
 .container {
