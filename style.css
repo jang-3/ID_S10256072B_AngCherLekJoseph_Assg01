@@ -42,6 +42,7 @@ body {
   .split {
     padding: 1%;
     flex: 1 47%;
+    color: aliceblue;
   }
 
   @media (max-width: 900px) {
