@@ -5,6 +5,9 @@ body {
 .wrapper {
     display: flex;
     position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
     margin-left: 0px;
     margin-right: 0px;
     top: 0;
