@@ -4,13 +4,11 @@ body {
 
 .wrapper {
     display: flex;
-    justify-content: center;
     height: auto;
 }
 
 .div.top-bar {
     display: flex;
-    background-color: black;
     padding: 10px;
 }
 
