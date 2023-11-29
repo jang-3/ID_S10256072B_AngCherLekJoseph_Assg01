@@ -208,6 +208,13 @@ div.top-bar {
     align-items: center;
     border-radius: 10px;
     transition: background-color 0.5s ease;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+       flex-wrap: wrap;
+    }
 }
 
 .features:hover {
@@ -400,15 +407,17 @@ div.top-bar {
     margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
-    background-color: white;
+    background-color: #001a42;
     transition: background-color 0.5s ease;
     justify-content: center;
     padding: 100px;
     border-radius: 10px;
+    outline: 1px solid #438dc5;
+    color: white;
 }
 
 .qspro:hover {
-    background-color: bisque;
+    background-color: #000d35;
 
 }
 
@@ -423,15 +432,22 @@ div.top-bar {
     margin-right: 500px;
 }
 
+.qspro-contents p {
+    color: #438dc5;
+    font-weight: 200;
+}
+
 .qspro-contents h2{
     font-size: 80px;
     font-family: 'Bebas Neue', sans-serif;
+    font-weight: 200;
 
 }
 
 .qspro-contents-2 p{
     text-align: right;
-
+    color: #438dc5;
+    font-weight: 200;
 }
 
 .button-container-3 {
@@ -450,16 +466,12 @@ div.top-bar {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.qspro:hover .button-container-3 {
-    background-color: black;
-}
-
 .qspro:hover .button-container-3:hover {
     background-color: white;
 }
 
 .qspro:hover .ptbutton {
-    color: white;
+    color: black;
 }
 
 
