@@ -7,9 +7,11 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-strong {
-    letter-spacing: -0.5px;
+a{
+    text-decoration: none;
+
 }
+
 
 .wrapper {
     z-index: 5;
@@ -20,7 +22,7 @@ strong {
     margin: auto;
     width: 100%;
     height: 20px;
-    background-color: black;
+    background-color: #001a42;
     padding-bottom: 30px;
     padding-top: 30px;
     display: flex;
@@ -28,13 +30,10 @@ strong {
     flex-direction: column;
     overflow: hidden;
     transition: background-color 0.5s ease, color 0.5s ease;
-    opacity: 70%;
-
-
 }
 
 .wrapper:hover{
-    background-color: white;
+    background-color: #00001f;
     color: black;
 }
 
@@ -54,19 +53,23 @@ strong {
     position: absolute;
     color: white;
     text-align: right;
-    margin-right: 60px;
+    margin-right: 300px;
 }
 
 #pt {
-    font-size: 50pt;
+    font-size: 130px;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
-    text-align: center;
-
+    text-align: right;
+    font-weight: 400;
+    line-height: 0.9;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .button-container {
     z-index: 2;
-    background-color: #4CAF50; 
+    background-color: #4eeeff; 
     border: none;
     color: black;
     padding: 15px 32px;
@@ -75,6 +78,7 @@ strong {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    margin-top: 0px;
     border-radius: 5px;
     max-width: 100px;
     transition: background-color 0.5s ease, color 0.5s ease;
@@ -84,12 +88,13 @@ strong {
     display: inline-flex;
     overflow: hidden;
     object-fit: cover;
-    width: 100%;
+    width: 102%;
     height: auto;
+    position: relative;
 }
 
 div.top-bar {
-    padding: 10px;
+    padding: 50px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -102,22 +107,40 @@ div.top-bar {
     justify-content: flex-end;
     padding-left: 20px;
     padding-right: 25px;
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;    
 }
 
 .top-bar .buttons .button {
     margin-left: 20px;
     position: relative;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.top-bar .buttons .button:hover {
+    color: #4eeeff;
+
 }
 
 .logo-box {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+}
+
+.qslogo {
+    margin-left: 10px;
+    width: 30px;
+    height: auto;
+    margin-right: 0px;
 }
 
 #logo {
-    position: fixed;
-    padding-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 5px;
     padding-right: 20px;
 }
 
@@ -129,8 +152,8 @@ div.top-bar {
     justify-content: center;
     overflow-x: hidden;
     flex: 1 50%;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -148,7 +171,19 @@ div.top-bar {
   }
 
   .split h2 {
-    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 50px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    font-size: 40px;
+  }
+
+  .split p{
+    padding-left: 50px;
+    font-size: 25px;
+    color: #438dc5;
+    font-weight: 200;
   }
 
   @media (max-width: 900px) {
@@ -171,6 +206,12 @@ div.top-bar {
     padding-top: 60px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.features:hover {
+    background-color: #00001f;
 }
 
 .fs {
@@ -178,8 +219,6 @@ div.top-bar {
 }
 
 .fs .fparagraph {
-    outline: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 20px;
     font-size: 25px;
     color: white;
     font-weight: 200;
@@ -201,16 +240,17 @@ div.top-bar {
     display: flex;
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
-    background-color: black;
-    color: wheat;
+    background-color: #000d35;
+    color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 200px;
-    outline: 1px solid white;
+    outline: 1px solid #438dc5;
     transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 10px;
 }
 
 .codey:hover .codey-adv{
@@ -219,6 +259,7 @@ div.top-bar {
 
 .codey:hover {
     background-color: white;
+    outline: 1px solid white;
 }
 
 .codey:hover .button-container-2{
@@ -231,10 +272,7 @@ div.top-bar {
 
 .ptbutton{
     transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-.button-container-2:hover{
-    outline: 2px grey;
+    color: #00001f;
 }
 
 .codey .codey-page {
@@ -255,8 +293,7 @@ div.top-bar {
 }
 
 .button-container-2 {
-    z-index: 2;
-    background-color: #4CAF50; 
+    background-color: #4eeeff; 
     border: none;
     color: black;
     padding: 15px 32px;
@@ -268,22 +305,47 @@ div.top-bar {
     border-radius: 5px;
     max-width: 100px;
     transition: background-color 0.5s ease, color 0.5s ease;
+    outline: none;
 }
 
+.codey:hover .button-container-2:hover {
+    background-color: #ff675e;
+}
+
+
 #projectimage {
-    border-radius: 10px;
+    border-radius: 5px;
     object-fit: cover;
     width: 250px;
     height: 150px;
     outline: 1px solid white;
 }
 
+.inside-titles {
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+    font-size: 40px;
+}
+
 .project-title {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 17px;
     padding-bottom: 0px;
     color: white;
+    background-color: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.project-title:hover {
+    background-color: #001a42;
 }
 
 .projects {
@@ -302,8 +364,14 @@ div.top-bar {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    outline: 1px solid white;
+    background-color: #000d35;
     padding: 30px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.explore-flexbox:hover {
+    background-color: #00001f;
 }
 
 .explore h2 {
@@ -322,6 +390,7 @@ div.top-bar {
 
 .project-title p {
     margin-top: 0px;
+    color: #438dc5;
 }
 
 .qspro {
@@ -331,11 +400,16 @@ div.top-bar {
     margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
-    background-color: bisque;
-    outline: 1px solid white;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: white;
+    transition: background-color 0.5s ease;
     justify-content: center;
     padding: 100px;
+    border-radius: 10px;
+}
+
+.qspro:hover {
+    background-color: bisque;
+
 }
 
 .qspro-center {
@@ -346,11 +420,12 @@ div.top-bar {
 }
 
 .qspro-contents{
-    margin-right: 600px;
+    margin-right: 500px;
 }
 
 .qspro-contents h2{
-    font-size: 40px;
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
 
 }
 
@@ -361,7 +436,7 @@ div.top-bar {
 
 .button-container-3 {
     z-index: 2;
-    background-color: #4CAF50; 
+    background-color: #ff675e; 
     border: none;
     color: black;
     padding: 15px 32px;
@@ -374,6 +449,24 @@ div.top-bar {
     max-width: 100px;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+.qspro:hover .button-container-3 {
+    background-color: black;
+}
+
+.qspro:hover .button-container-3:hover {
+    background-color: white;
+}
+
+.qspro:hover .ptbutton {
+    color: white;
+}
+
+
+.qspro:hover .button-container-3:hover .ptbutton {
+    color: black;
+}
+
 
 footer {
     background-color: black;
@@ -410,3 +503,4 @@ footer .partners {
 footer .logo {
     text-align: left;
 }
+
