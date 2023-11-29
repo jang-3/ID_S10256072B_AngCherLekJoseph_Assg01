@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #001a42;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -54,11 +55,26 @@ body {
 
 #pt {
     font-size: 50pt;
-    text-align: left;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
 
+}
+
+.button-container {
+    z-index: 3;
+    position: absolute;
+    transform: translate(-50%, 100%);
+    background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
 }
 
 .bgimg {
@@ -115,9 +131,11 @@ div.top-bar {
   }
 
   #firstimg {
-    width: 30%;
-    height: auto;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
     padding: 30px;
+    border-radius: 35px;
   }
 
   .split {
@@ -155,5 +173,91 @@ div.top-bar {
 .fs .fparagraph {
     outline: 2px solid white;
     padding: 20px;
+    font-size: 25px;
 }
 
+.codey {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: black;
+    color: wheat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    outline: 2px solid white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.codey:hover .codey-adv{
+    color: black;
+}
+
+.codey:hover {
+    background-color: white;
+}
+
+.codey .codey-page {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+}
+
+.codey-adv {
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+.button-container-2 {
+    z-index: 3;
+    position: absolute;
+    transform: translate(-50%, -60%);
+    background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectimage {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.project-title {
+    padding: 10px;
+}
+
+.explore-flexbox {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    outline: 2px solid white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.project-title h4 {
+    padding: 0;
+}
