@@ -101,6 +101,7 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 500px;
     }
 
     .promotional {
@@ -109,7 +110,7 @@ a{
     }
 
     #pt {
-        font-size: 70px;
+        font-size: 50px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -220,13 +221,33 @@ div.top-bar {
     font-weight: 200;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     .container {
       flex-wrap: wrap;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 10px;
+      margin-left: 10px;
+      padding: 0px;
+      border: 0px;
     }
 
     .split {
       flex: 1 50%;
+    }
+
+    .split p{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20px;
+        color: #438dc5;
+        font-weight: 200;
+    }
+
+    .split h2 {
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 30px;
     }
 
     #firstimg {
@@ -235,6 +256,7 @@ div.top-bar {
         width: 100%;
         height: auto;
     }
+
 }
 
 .features {
@@ -250,21 +272,6 @@ div.top-bar {
     border-radius: 10px;
     transition: background-color 0.5s ease;
     flex-wrap: nowrap;
-}
-
-@media screen and (max-width: 768px) {
-    .features {
-       flex-wrap: wrap;
-       margin-left: 30px;
-       margin-right: 30px;
-       padding-top: 30px;
-       padding-left: 0px;
-       padding-right: 0px;
-    }
-
-    .fs {
-        padding: 0px;
-    }
 }
 
 .features:hover {
@@ -293,6 +300,36 @@ div.top-bar {
     font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+    .features {
+       flex-wrap: wrap;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding-top: 20px;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-bottom: 0px;
+    }
+
+    .fs {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .fs .fparagraph {
+        font-size: 20px;
+    }
+
+    .fheading, .ftop-num {
+        font-size: 25px;
+    }
+}
+
+
 .codey {
     display: flex;
     margin-left: 60px;
@@ -309,6 +346,7 @@ div.top-bar {
     transition: background-color 0.5s ease, color 0.5s ease;
     border-radius: 10px;
 }
+
 
 .codey:hover .codey-adv{
     color: black;
@@ -349,6 +387,7 @@ div.top-bar {
     transition: color 0.5s ease;
 }
 
+
 .button-container-2 {
     background-color: #4eeeff; 
     border: none;
@@ -369,6 +408,22 @@ div.top-bar {
     background-color: #ff675e;
 }
 
+@media screen and (max-width: 768px) {
+    .codey {
+       flex-wrap: wrap;
+       margin-left: 20px;
+       margin-right: 20px;
+       padding-top: 30px;
+       padding-left: 0px;
+       padding-right: 0px;
+       padding-bottom: 30px;
+    }
+
+    .codey-adv {
+        padding: 0px;
+        font-size: 30px;
+    }
+}
 
 #projectimage {
     border-radius: 5px;
@@ -381,7 +436,6 @@ div.top-bar {
 .inside-titles {
     display: flex;
     padding: 20px;
-    border-radius: 5px;
     align-items: center;
     justify-content: center;
     font-weight: 400;
@@ -450,6 +504,27 @@ div.top-bar {
     color: #438dc5;
 }
 
+
+@media (max-width: 768px) {
+
+    .explore-flexbox {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    .projects {
+    }
+
+    .inside-titles {
+      font-size: 30px;
+    }
+
+}
+
+
 .qspro {
     position: relative;
     margin-left: 60px;
@@ -490,9 +565,13 @@ div.top-bar {
 
 }
 
+.qspro-contents h4{
+    font-weight: 200;
+}
+
 .qspro-contents-2 p{
     text-align: right;
-    color: #438dc5;
+    color: white;
     font-weight: 200;
 }
 
@@ -525,6 +604,41 @@ div.top-bar {
     color: black;
 }
 
+
+@media (max-width: 768px) {
+
+    .qspro {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .qspro-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .qspro-contents h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .qspro-contents p, h4 {
+        text-align: center;
+    }
+    
+    
+    .qspro-contents-2 p, .button-container-3{
+        text-align: center;
+        color: white;
+        font-weight: 200;
+    }
+
+}
 
 footer {
     background-color: black;
