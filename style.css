@@ -98,18 +98,49 @@ a{
         left: -500px; 
         width: 250px;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         transition: left 0.5s;
+        padding-top: 30px;
     }
 
     .side-button-box #side-button {
         width: 30px;
         height: 25px;
         padding: 0px;
+    }
+
+    .login, .contact-us{
+        border: none;
+        outline: none;
+        background-color: #4eeeff;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        font-family: 'Space Grotesk', sans-serif;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .login:hover, .contact-us:hover {
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 5px;
+    }
+
+    .sidebar #close-button {
+        width: 25px;
+        height: 25px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        transform: translateX(410%);
     }
 }
 
