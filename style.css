@@ -1,7 +1,7 @@
 html,
 body {
     margin: 0;
-    background-color: #001a42;
+    background-color: #001e37;
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: 'Space Grotesk', sans-serif;
@@ -22,7 +22,7 @@ a{
     margin: auto;
     width: 100%;
     height: 20px;
-    background-color: #001a42;
+    background-color: #001e37;
     padding-bottom: 30px;
     padding-top: 30px;
     display: flex;
@@ -102,14 +102,15 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        transition: left 0.5s;
+        transition: left 0.5s ease-in-out;
         padding-top: 30px;
     }
 
     .side-button-box #side-button {
-        width: 30px;
-        height: 25px;
+        width: 25px;
+        height: 20px;
         padding: 0px;
+        align-self: center;
     }
 
     .login, .contact-us{
@@ -159,7 +160,7 @@ a{
 }
 
 .button-container button:hover {
-    background-color: #ff675e;
+    background-color: white;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -173,6 +174,7 @@ a{
     height: auto;
     position: relative;
     flex-wrap: nowrap;
+    top: 2px;
 }
 
 @media screen and (max-width: 768px) {
@@ -348,14 +350,15 @@ div.top-bar {
     #firstimg {
         padding: 25px;
         border: 0px;
-        width: 100%;
+        width: 90%;
         height: auto;
+
     }
 
 }
 
 .features {
-    background-color: #000d35;
+    background-color: #00132D;
     display: flex;
     flex-direction: row;
     margin-left: 60px;
@@ -375,6 +378,7 @@ div.top-bar {
 
 .fs {
     padding: 60px;
+    max-width: 40%;
 }
 
 .fs .fparagraph {
@@ -413,6 +417,7 @@ div.top-bar {
         margin-bottom: 0px;
         padding-top: 0px;
         padding-bottom: 20px;
+        max-width: none;
     }
 
     .fs .fparagraph {
@@ -432,12 +437,14 @@ div.top-bar {
     margin-right: 60px;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: #000d35;
+    background-color: #00132D;
     color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     outline: 1px solid #438dc5;
     transition: background-color 0.5s ease, color 0.5s ease;
     border-radius: 10px;
@@ -479,11 +486,28 @@ div.top-bar {
     padding: 40px;
 }
 
+.codey .codey-page p{
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 25px;
+    color: #4eeeff;
+    font-weight: 150;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.codey:hover .codey-page p{
+    color: grey;
+}
+
 .codey-adv {
-    font-size: 50pt;
+    font-size: 80pt;
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     text-align: center;
     transition: color 0.5s ease;
+    padding-top: 0px;
+    line-height: 1;
+    font-weight: 400;
 }
 
 
@@ -507,6 +531,11 @@ div.top-bar {
 }
 
 @media screen and (max-width: 768px) {
+
+    .codey .codey-page p{
+        font-size: 15px;
+    }
+    
     .codey {
        flex-wrap: wrap;
        margin-left: 20px;
@@ -515,11 +544,13 @@ div.top-bar {
        padding-left: 0px;
        padding-right: 0px;
        padding-bottom: 30px;
+       margin-top: 20px;
+       margin-bottom: 30px;
     }
 
     .codey-adv {
         padding: 0px;
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -534,11 +565,25 @@ div.top-bar {
 .inside-titles {
     display: flex;
     padding: 20px;
+    padding-bottom: 0px;
     align-items: center;
     justify-content: center;
     font-weight: 400;
     color: white;
     font-size: 40px;
+}
+
+.i-text {
+    text-align: center;
+    align-self: center;
+    font-size: 25px;
+    color: #438dc5;
+    font-weight: 200;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .project-title {
@@ -554,7 +599,7 @@ div.top-bar {
 }
 
 .project-title:hover {
-    background-color: #001a42;
+    background-color: #001e37;
 }
 
 .projects {
@@ -573,7 +618,7 @@ div.top-bar {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    background-color: #000d35;
+    background-color: #00132D;
     padding: 30px;
     border-radius: 10px;
     transition: background-color 0.5s ease;
@@ -622,6 +667,11 @@ div.top-bar {
         font-size: 30px;
     }
       
+    .i-text {
+        font-size: 15px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
 
 }
 
@@ -633,7 +683,7 @@ div.top-bar {
     margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
-    background-color: #001a42;
+    background-color: #001e37;
     transition: background-color 0.5s ease;
     justify-content: center;
     padding: 100px;
@@ -643,7 +693,7 @@ div.top-bar {
 }
 
 .qspro:hover {
-    background-color: #000d35;
+    background-color: #00132D;
 
 }
 
@@ -666,14 +716,23 @@ div.top-bar {
 
 }
 
+.qspro-contents-2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .qspro-contents h4{
     font-weight: 200;
 }
 
 .qspro-contents-2 p{
-    text-align: right;
+    padding-bottom: 40px;
+    text-align: left;
     color: white;
     font-weight: 200;
+    max-width: 500px;
 }
 
 .button-container-3 button {
@@ -731,19 +790,26 @@ div.top-bar {
     }
 
     .qspro-contents h2 {
-        font-size: 50px;
-        text-align: center;
+        font-size: 40px;
+        text-align: left;
     }
 
     .qspro-contents p, h4 {
-        text-align: center;
+        text-align: left;
     }
     
     
     .qspro-contents-2 p, .button-container-3{
-        text-align: center;
+        text-align: left;
         color: white;
         font-weight: 200;
+    }
+
+    .qspro-contents-2{
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+
     }
 
 }
