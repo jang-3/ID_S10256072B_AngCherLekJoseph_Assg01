@@ -73,6 +73,46 @@ a{
     font-weight: 200px;
 }
 
+.side-button-box {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .side-button-box {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        position: absolute;
+        left: 30px;
+        top: 50%; 
+        transform: translateY(-50%);
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -500px; 
+        width: 250px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: left 0.5s;
+    }
+
+    .side-button-box #side-button {
+        width: 30px;
+        height: 25px;
+        padding: 0px;
+    }
+}
+
 .button-container button {
     border: none;
     outline: none;
@@ -263,7 +303,7 @@ div.top-bar {
     .split p{
         padding-left: 0px;
         padding-right: 0px;
-        font-size: 20px;
+        font-size: 16px;
         color: #438dc5;
         font-weight: 200;
     }
@@ -345,7 +385,7 @@ div.top-bar {
     }
 
     .fs .fparagraph {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .fheading, .ftop-num {
