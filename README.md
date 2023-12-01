@@ -12,6 +12,7 @@ Users can share code by publishing finished projects, allowing other users to ga
 ## Design Process
 ### Wireframes
 Desktop: https://xd.adobe.com/view/f673494d-eede-43da-b1d5-4338be94eb10-a320/
+
 Mobile: https://xd.adobe.com/view/f673494d-eede-43da-b1d5-4338be94eb10-a320/
 
 ### Logo
@@ -36,15 +37,24 @@ This website is for developers of all ages and experience. So long as you want t
 10.	As a seasoned programmer, I want the option of turning Codey off to work uninterrupted. 
 
 ### Features Implemented
-1.	Outlining Services Provided — The website notifies any viewers what QuickScript is used for along with its mission. 
-2.	Premium Subscription pricing and benefits — The website advertises the benefits of getting a premium subscription and its price. 
-3.	Showcasing projects of other users — The website showcases projects of other users. 
-4.	Advertising special features — QuickScript advertises its special features and why it may be different from other coding websites. 
-5.	Description of AI chatbot, Codey — The website discusses the usage of AI and how it can help users. 
-6.	Partnerships with fictional companies — partnerships with fictional companies are listed in the footer.
-7.	Interactive buttons — various buttons were placed around QuickScript, all of them interactive upon hover. 
-8.	Mouse-over interactions — More than just buttons were made interactive. 
-9.	Navigation System — the header contains the logo as well as ways to navigate to other places in the website. 
+#### 1.	Outlining Services Provided 
+The website notifies any viewers what QuickScript is used for along with its mission. 
+#### 2.	Premium Subscription pricing and benefits 
+The website advertises the benefits of getting a premium subscription and its price. 
+#### 3.	Showcasing projects of other users 
+The website showcases projects of other users. 
+#### 4.	Advertising special features 
+QuickScript advertises its special features and why it may be different from other coding websites. 
+#### 5.	Description of AI chatbot, Codey 
+The website discusses the usage of AI and how it can help users. 
+#### 6.	Partnerships with fictional companies 
+partnerships with fictional companies are listed in the footer.
+#### 7.	Interactive buttons 
+various buttons were placed around QuickScript, all of them interactive upon hover. 
+#### 8.	Mouse-over interactions 
+More than just buttons were made interactive. 
+#### 9.	Navigation System 
+the header contains the logo as well as ways to navigate to other places in the website. 
 
 ## Technologies Used
 Blackbox.ai (https://www.blackbox.ai) 
