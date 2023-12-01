@@ -71,7 +71,7 @@ a{
 }
 
 .ptbutton {
-    font-weight: 200;
+    font-weight: 200px;
 }
 
 .side-button-box {
@@ -593,6 +593,7 @@ div.top-bar {
     padding-top: 17px;
     padding-bottom: 0px;
     color: white;
+    background-color: none;
     transition: background-color 0.5s ease, color 0.5s ease;
     border-radius: 15px;
     margin: 5px;
@@ -849,10 +850,12 @@ footer li {
 }
 footer .partners {
     text-align: right;
+    align-items: top;
 }
 footer .logo-box {
     padding-top: 0px;
     text-align: left;
+    align-items: top;
     padding-bottom: 30px;
 }
 
