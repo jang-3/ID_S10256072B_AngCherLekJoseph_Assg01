@@ -57,7 +57,8 @@ More than just buttons were made interactive.
 the header contains the logo as well as ways to navigate to other places in the website. 
 
 ## Technologies Used
-Blackbox.ai (https://www.blackbox.ai) 
+#### Blackbox.ai 
+- (https://www.blackbox.ai) 
 The project uses Blackbox.ai in its development to save time on research and implementation. 
 
 ## Testing
