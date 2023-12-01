@@ -1,177 +1,189 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title> Assg1 </title>
-            <link rel="stylesheet" href="normalize.css" type="text/css">
-            <link rel="stylesheet" href="style.css" type="text/css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        </head>
-        <body>
-            <div class="side-bar">
-            </div>
-            <div class="wrapper">
-                <div class="top-bar">
-                  <div class="side-button-box">
-                    <img id="side-button" src="assets/Images/Button-Sidebar.png" alt="Sidebutton">
-                  </div>
-                  <div class="sidebar">
-                    <img id="close-button" src="assets/Images/Close-Button.png" alt="CloseButton">
-                      <button class="login">Login</button>
-                      <button class="about-us">About us</button>
-                      <button class="contact-us">Contact us</button>
-                  </div>
-                    <div class="logo-box">
-                      <img class="qslogo" src="assets/Images/quickscript-white.png" alt="Qslogo">
-                      <a href="#" id="logo">QUICKSCRIPT</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="button">About us</a>
-                        <a href="#" class="button">Contact us</a>
-                        <a href="#" class="button">Login</a>
-                        <a href="#" class="button">Signup</a>
-                    </div>
-                </div>
-            </div>
-            <div class="adv">
-              <img class = "bgimg" src="assets/Images/RealWallpaperBGHTML.png" alt="Background-Image">
-              <div class="promotional">
-                <h2 id = "pt" >The Future of<br>Programming<br>is Here.</h2>
-                <div class="button-container">
-                  <button class="ptbutton">Get Started</button>
-                </div>
+<html lang="en">
+    <head>
+        <title> QuickScript </title>
+        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="side-bar"> <!-- The side-bar and the header -->
+          <div class="wrapper">
+            <div class="top-bar">
+              <div class="side-button-box">
+                <img id="side-button" src="assets/Images/Button-Sidebar.png" alt="Sidebutton">
               </div>
-            </div>
-            <div class="container">
-                <img id = "firstimg" src="assets/Images/quickscript-image.png" alt="QuickScript-Logo-Img">
-                <div class="split">
-                  <h2>About Us</h2>
-                  <p>
-                    Founded by a group of friends based in the United States,
-                    we strive to enact their original goal of bringing code to
-                    everyone and anyone, making it accessable, educative and fun.
-                    We want coding to be something people bond over, laugh about,
-                    and create meaning in their life. Through coding, we aspire to
-                    share the passion we at QuickScript share so ocean-deep. 
-                  </p>
-                </div>
-            </div>
-            <h2 class="inside-titles">Why QuickScript?</h2>
-            <p class="i-text">QuickScript stands on two proud pillars that distinguish it from most other coding sites.</p>
-            <div class="features">
-              <div class="fs">
-                <p class="ftop-num">01</p>
-                <hr>
-                <h4 class="fheading"> Our Community </h4>
-                <p class="fparagraph">
-                  QuickScript has an awesome global community of more than 2 million
-                  interconnected users. We give feedback to each other, have fun coding together, and 
-                  learn as a team. We are a friendly and welcoming community for everyone, no matter
-                  what background you come from.
-                </p>
+              <div class="sidebar">
+                <img id="close-button" src="assets/Images/Close-Button.png" alt="CloseButton">
+                <button class="login">Login</button>
+                <button class="about-us">About us</button>
+                <button class="contact-us">Contact us</button>
               </div>
-              <div class="fs">
-                <p class="ftop-num">02</p>
-                <hr>
-                <h4 class="fheading"> Our AI, Codey </h4>
-                <p class="fparagraph">
-                  Codey is an advanced Natural Language Processing AI that helps every user learn in real-time when they program. 
-                  Codey operates internally within the workspace, being able to learn from preexisting code and 
-                  generate code to fit the current work within it. You'll never be stuck ever again.
-                </p>
-              </div>
-            </div>
-            <div class="container">
-              <div class="split">
-                <h2>We are both formal and informal.</h2>
-                <p>
-                  QuickScript is used universally by both ameteurs and professionals, in both casual 
-                  and serious settings. Codey is a great partner for beginners to learn coding, and excels
-                  at streamlining a professional's work. <br> We're all in the same place as you are. 
-                </p>
-              </div>
-            </div>
-            <div class="codey">
-              <div class="codey-page">
-                <p>Never fear, <br> for Codey is here.</p>
-                <h2 class="codey-adv">Meet Codey, <br> your personal assistant.</h2>
-                <div class="button-container-2">
-                  <button class="ptbutton">Learn More</button>
-                </div>
-              </div>
-            </div>
-            <div class="explore">
-              <h2 class="inside-titles">Explore projects from our users</h2>
-              <div class="explore-flexbox">
-                <div class="projects">
-                  <div class="project-title">
-                    <img id = "projectimage1" src ="assets/Images/Proj1.jpg" alt="Knights-Adventure">
-                    <h4>Knight's Adventure</h4>
-                    <p>By Jy_son</p>
-                  </div>
-                  <div class="project-title">
-                    <img id = "projectimage2" src ="assets/Images/Proj2.jpg" alt="Fantasy-RPG-Game">
-                    <h4>Fantasy RPG Game</h4>
-                    <p>By Hello_I_am_Dead_Lol</p>
-                  </div>
-                  <div class="project-title">
-                    <img id = "projectimage3" src ="assets/Images/Proj3.jpg" alt="Painting-blog">
-                    <h4>Painting Blog</h4>
-                    <p>By Blogger_1</p>
-                  </div>
-                  <div class="project-title">
-                    <img id = "projectimage4" src ="assets/Images/Proj4.2.jpg" alt="deaths-bridge">
-                    <h4>Death's Bridge</h4>
-                    <p>By Imakegames</p>
-                  </div>
-                  <div class="project-title">
-                    <img id = "projectimage5" src ="assets/Images/Proj5.jpg" alt="mobile-board-game">
-                    <h4>Mobile Board Game</h4>
-                    <p>By Mike_2</p>
-                  </div>
-                  <div class="project-title">
-                    <img id = "projectimage6" src ="assets/Images/Proj6.jpg" alt="Nightkrawler">
-                    <h4>Nightkrawler</h4>
-                    <p>By Moony</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="qspro">
-              <div class="qspro-center">
-                <div class = "qspro-contents">
-                  <h2>Get Quickscript Pro</h2>
-                  <h4>Only $5 / month.</h4>
-                  <p>Or, take the 1 month free trial. <br> Cancel anytime.</p>
-                </div>
-                <div class = "qspro-contents-2">
-                  <p>Save your time with QuickScript Pro. QuickScript Pro comes with greater priority over Codey, and allows
-                    you to collaborate in real-time with other collaborators. Additionally, 
-                    Quickscript Pro allows you to instantly run Codey's suggestions outside
-                    your project, so you can access the reccomendations given. 
-                  </p>
-                  <div class="button-container-3">
-                    <button class="ptbutton">Learn More</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <footer>
               <div class="logo-box">
-                <img class = "qslogo" src ="assets/Images/quickscript-white.png" alt="qslogo">
-                <a href="#" id="logo2">QUICKSCRIPT</a>
+                <img class="qslogo" src="assets/Images/quickscript-white.png" alt="Qslogo">
+                <a href="#" id="logo">QUICKSCRIPT</a>
               </div>
-              <div class="partners">
-                  <h4 class ="partner-title"><strong>Partners</strong></h4>
-                  <ul>
-                      <li><a href="#">Partner 1</a></li>
-                      <li><a href="#">Partner 2asdasdasdasdsad</a></li>
-                      <li><a href="#">Partner 3</a></li>
-                  </ul>
+              <div class="buttons">
+                <a href="#" class="button">About us</a>
+                <a href="#" class="button">Contact us</a>
+                <a href="#" class="button">Login</a>
+                <a href="#" class="button">Signup</a>
               </div>
-          </footer>
-          <script src="assets/js/script.js"></script>
-        </body>
-    </html>
+            </div>
+          </div>
+        </header>
+        <section class="adv"> <!-- The central call to action -->
+          <img class = "bgimg" src="assets/Images/RealWallpaperBGHTML.png" alt="Background-Image">
+          <div class="promotional">
+            <h2 id = "pt" >The Future of<br>Programming<br>is Here.</h2>
+            <div class="button-container">
+              <button class="ptbutton">Get Started</button> 
+            </div>
+          </div>
+        </section>
+        <section class="container"> <!-- About us -->
+          <img id = "firstimg" src="assets/Images/quickscript-image.png" alt="QuickScript-Logo-Img">
+          <div class="split">
+            <h2>About Us</h2>
+            <p>
+              Founded by a group of friends based in the United States,
+              we strive to enact their original goal of bringing code to
+              everyone and anyone, making it accessable, educative and fun.
+              We want coding to be something people bond over, laugh about,
+              and create meaning in their life. Through coding, we aspire to
+              share the passion we at QuickScript share so ocean-deep. 
+            </p>
+          </div>
+        </section>
+        <section> <!-- Two main features! -->
+          <h2 class="inside-titles">Why QuickScript?</h2>
+          <p class="info-text">QuickScript stands on two proud pillars that distinguish it from most other coding sites.</p>
+        </section>
+        <section class="features">
+          <div class="features-container">
+            <p class="ftop-num">01</p>
+            <hr>
+            <h4 class="fheading"> Our Community </h4>
+            <p class="fparagraph">
+              QuickScript has an awesome global community of more than 2 million
+              interconnected users. We give feedback to each other, have fun coding together, and 
+              learn as a team. We are a friendly and welcoming community for everyone, no matter
+              what background you come from.
+            </p>
+          </div>
+          <div class="features-container">
+            <p class="ftop-num">02</p>
+            <hr>
+            <h4 class="fheading"> Our AI, Codey </h4>
+            <p class="fparagraph">
+              Codey is an advanced Natural Language Processing AI that helps every user learn in real-time when they program. 
+              Codey operates internally within the workspace, being able to learn from preexisting code and 
+              generate code to fit the current work within it. You'll never be stuck ever again.
+            </p>
+          </div>
+        </section>
+        <section class="container"> <!-- What kind of developers is QuickScript for? -->
+          <div class="split">
+            <h2>We are both formal and informal.</h2>
+            <p>
+              QuickScript is used universally by both ameteurs and professionals, in both casual 
+              and serious settings. Codey is a great partner for beginners to learn coding, and excels
+              at streamlining a professional's work. <br> We're all in the same place as you are. 
+            </p>
+          </div>
+        </section>
+        <section class="codey"> <!-- Learn more about Codey -->
+          <div class="codey-page">
+            <p>Never fear, <br> for Codey is here.</p>
+            <h2 class="codey-adv">Meet Codey, <br> your personal assistant.</h2>
+            <div class="button-container-2">
+              <button class="ptbutton">Learn More</button>
+            </div>
+          </div>
+        </section>
+        <section class="explore"> <!-- Social Proof, User Projects -->
+          <h2 class="inside-titles">Explore projects from our users</h2>
+          <div class="explore-flexbox">
+            <div class="projects">
+              <div class="project-title">
+                <img id = "projectimage1" src ="assets/Images/Proj1.jpg" alt="Knights-Adventure">
+                <h4>Knight's Adventure</h4>
+                <p>By Jy_son</p> <!-- Displays both the title of the project and the username of author -->
+              </div>
+              <div class="project-title">
+                <img id = "projectimage2" src ="assets/Images/Proj2.jpg" alt="Fantasy-RPG-Game">
+                <h4>Fantasy RPG Game</h4>
+                <p>By Hello_I_am_Dead_Lol</p>
+              </div>
+              <div class="project-title">
+                <img id = "projectimage3" src ="assets/Images/Proj3.jpg" alt="Painting-blog">
+                <h4>Painting Blog</h4>
+                <p>By Blogger_1</p>
+              </div>
+              <div class="project-title">
+                <img id = "projectimage4" src ="assets/Images/Proj4.2.jpg" alt="deaths-bridge">
+                <h4>Death's Bridge</h4>
+                <p>By Imakegames</p>
+              </div>
+              <div class="project-title">
+                <img id = "projectimage5" src ="assets/Images/Proj5.jpg" alt="mobile-board-game">
+                <h4>Mobile Board Game</h4>
+                <p>By Mike_2</p>
+              </div>
+              <div class="project-title">
+                <img id = "projectimage6" src ="assets/Images/Proj6.jpg" alt="Nightkrawler">
+                <h4>Nightkrawler</h4>
+                <p>By Moony</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="qspro"> <!-- Prompting users to buy QS Premium -->
+          <div class="qspro-center">
+            <div class = "qspro-contents">
+              <h2>Get Quickscript Pro</h2>
+              <h4>Only $5 / month.</h4>
+              <p>Or, take the 1 month free trial. <br> Cancel anytime.</p>
+            </div>
+            <div class = "qspro-contents-2">
+              <p>Save your time with QuickScript Pro. QuickScript Pro comes with greater priority over Codey, and allows
+                you to collaborate in real-time with other collaborators. Additionally, 
+                Quickscript Pro allows you to instantly run Codey's suggestions outside
+                your project, so you can access the recomendations given. 
+              </p>
+              <div class="button-container-3">
+                <button class="ptbutton">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer> <!-- Footer -->
+          <div class="logo-box">
+            <img class = "qslogo" src ="assets/Images/quickscript-white.png" alt="qslogo">
+            <a href="#" id="logo2">QUICKSCRIPT</a>
+          </div>
+          <div class="partners">
+            <div class="partners-flexitem">
+              <h4 class ="partner-title"><strong>Links</strong></h4>
+              <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="partners-flexitem">
+              <h4 class ="partner-title"><strong>Partners</strong></h4>
+              <ul>
+                <li><a href="#">Fireflyx</a></li>
+                <li><a href="#">Lynxcode</a></li>
+                <li><a href="#">PrograME</a></li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+      <script src="assets/js/script.js"></script>
+    </body>
+</html>
