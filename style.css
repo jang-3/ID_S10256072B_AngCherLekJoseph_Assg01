@@ -114,7 +114,7 @@ a{
         align-self: center;
     }
 
-    .login, .contact-us{
+    .login, .about-us, .contact-us{
         border: none;
         outline: none;
         background-color: #4eeeff;
@@ -131,7 +131,7 @@ a{
         margin-right: 20px;
     }
     
-    .login:hover, .contact-us:hover {
+    .login:hover, .about-us:hover, .contact-us:hover {
         background-color: #ffffff;
         color: #000000;
         border-radius: 5px;
@@ -230,7 +230,7 @@ div.top-bar {
 }
 
 .top-bar .buttons .button {
-    margin-left: 20px;
+    margin-left: 40px;
     position: relative;
     color: white;
     transition: color 0.5s ease;
@@ -254,7 +254,7 @@ div.top-bar {
     margin-right: 0px;
 }
 
-#logo {
+#logo, #logo2 {
     color: white;
     font-size: 30px;
     font-family: 'Bebas Neue', sans-serif;
@@ -555,7 +555,7 @@ div.top-bar {
     }
 }
 
-#projectimage {
+#projectimage1, #projectimage2, #projectimage3, #projectimage4, #projectimage5, #projectimage6 {
     border-radius: 5px;
     object-fit: cover;
     width: 250px;
